@@ -1,0 +1,106 @@
+{
+  "responses": [
+    {
+      "id": 1,
+      "category": "sales",
+      "question": "Show me sales data",
+      "answer": {
+        "table": {
+          "headers": ["Month", "Sales", "Growth", "Target"],
+          "rows": [
+            ["January", "$15,000", "+12%", "$14,000"],
+            ["February", "$18,500", "+23%", "$15,000"],
+            ["March", "$22,000", "+19%", "$18,000"],
+            ["April", "$19,800", "+8%", "$20,000"]
+          ]
+        },
+        "description": "Sales have shown consistent growth over the first quarter, with March performing exceptionally well. The slight dip in April was due to seasonal factors."
+      }
+    },
+    {
+      "id": 2,
+      "category": "analytics",
+      "question": "User analytics overview",
+      "answer": {
+        "table": {
+          "headers": ["Metric", "Current", "Previous", "Change"],
+          "rows": [
+            ["Active Users", "45,231", "42,156", "+7.3%"],
+            ["New Signups", "3,245", "2,987", "+8.6%"],
+            ["Session Duration", "7m 32s", "6m 45s", "+11.6%"],
+            ["Bounce Rate", "32.1%", "35.4%", "-9.3%"]
+          ]
+        },
+        "description": "User engagement metrics show positive trends across all key indicators. Session duration has improved significantly while bounce rate decreased."
+      }
+    },
+    {
+      "id": 3,
+      "category": "products",
+      "question": "Product performance",
+      "answer": {
+        "table": {
+          "headers": ["Product", "Revenue", "Units Sold", "Rating"],
+          "rows": [
+            ["Product A", "$45,230", "1,234", "4.5/5"],
+            ["Product B", "$32,150", "987", "4.2/5"],
+            ["Product C", "$28,760", "856", "4.7/5"],
+            ["Product D", "$15,430", "543", "3.9/5"]
+          ]
+        },
+        "description": "Product A continues to be the top performer in both revenue and units sold. Product C has the highest customer satisfaction rating."
+      }
+    },
+    {
+      "id": 4,
+      "category": "finance",
+      "question": "Financial metrics",
+      "answer": {
+        "table": {
+          "headers": ["Quarter", "Revenue", "Expenses", "Profit", "Margin"],
+          "rows": [
+            ["Q1", "$250,000", "$180,000", "$70,000", "28%"],
+            ["Q2", "$280,000", "$195,000", "$85,000", "30%"],
+            ["Q3", "$310,000", "$210,000", "$100,000", "32%"],
+            ["Q4", "$350,000", "$230,000", "$120,000", "34%"]
+          ]
+        },
+        "description": "Strong quarterly growth with improving profit margins. Q4 showed the best performance with 34% margin."
+      }
+    },
+    {
+      "id": 5,
+      "category": "marketing",
+      "question": "Marketing campaign results",
+      "answer": {
+        "table": {
+          "headers": ["Campaign", "Impressions", "Clicks", "CTR", "Conversions"],
+          "rows": [
+            ["Spring Sale", "1,200,000", "45,000", "3.75%", "2,300"],
+            ["Summer Launch", "950,000", "38,000", "4.00%", "1,800"],
+            ["Fall Promotion", "1,100,000", "42,500", "3.86%", "2,100"],
+            ["Winter Special", "1,350,000", "51,000", "3.78%", "2,600"]
+          ]
+        },
+        "description": "All campaigns performed well with consistent click-through rates. Winter Special generated the highest number of conversions."
+      }
+    },
+    {
+      "id": 6,
+      "category": "support",
+      "question": "Customer support metrics",
+      "answer": {
+        "table": {
+          "headers": ["Channel", "Tickets", "Response Time", "Satisfaction", "Resolution Rate"],
+          "rows": [
+            ["Email", "1,234", "2h 15m", "4.2/5", "92%"],
+            ["Chat", "2,567", "45s", "4.5/5", "95%"],
+            ["Phone", "890", "8m 30s", "4.3/5", "88%"],
+            ["Social Media", "456", "4h 20m", "4.0/5", "85%"]
+          ]
+        },
+        "description": "Chat support shows the best performance metrics with instant response times and high satisfaction scores."
+      }
+    }
+  ]
+}
